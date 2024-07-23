@@ -1,0 +1,155 @@
+/* styles.css */
+
+#fishyclicky {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbo 5s ease infinite;
+    user-select: none;
+}
+
+@keyframes rainbo {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* styles.css */
+
+#fishel {
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(140, 0, 255), rgb(9, 255, 0), rgb(247, 0, 255), rgb(0, 255, 255), rgb(0, 0, 255), rgb(0, 130, 22), violet);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 5s ease infinite;
+    user-select: none;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#shopBtn {
+    background-color: rgb(78, 78, 236);
+    border-radius: 15px;
+    user-select: none;
+}
+
+#shopBtn:hover {
+    background-color: rgb(64, 64, 182) ;
+    border-radius: 16px;
+    user-select: none;
+}
+
+#butt {
+    background-color: rgb(255, 145, 0);
+    border-radius: 12px;
+    user-select: none;
+}
+
+#butt:hover {
+    background-color: rgb(182, 109, 13);
+    user-select: none;
+}
+
+#but {
+    background-color: rgb(255, 0, 255);
+    border-radius: 10px;
+    user-select: none;
+}
+#but:hover {
+    background-color:  rgb(190, 26, 190);
+    user-select: none;
+}
+
+#soup {
+    background-color: rgb(28, 250, 231);
+    color: rgb(23, 25, 150);
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: verdana;
+    font-size: small;
+    border-style:dashed;
+    user-select: none;
+}
+#soup:hover {
+    border-style: dotted;
+    user-select: none;
+}
+
+
+#sexycoin:hover {
+  background-color: rgb(73, 61, 61);
+  user-select: none;
+}
+
+#coins {
+    color: rgb(255 173 173);
+	text-shadow: 1px 1px 1px #000;
+}
+#buyer {
+    color: rgb(255 173 173);
+	text-shadow: 1px 1px 1px #000;
+}
+
+#clickypay {
+    color: rgb(197 0 136);
+}
+
+#payCounter {
+    color: rgb(255, 0, 98);
+    font-size: 20px;
+}
+#gradeCounter {
+    user-select: none;
+    color: #002d1e;
+	font-size: 20px;
+}
+
+#numba {
+    color: black;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#clTog {
+    user-select: none;
+}
+
+.buttons {
+    user-select: none;
+    border-radius: 15px;
+    background-color: rgb(163, 0, 114);
+}
+
+#perditor {
+    user-select: none;
+    color: rgb(26, 148, 107);
+}
+
+#pointy {
+    color: rgb(55, 0, 255);
+    user-select: none;
+}
+#reset {
+	background-color: rgb(255 0 0 / 68%);
+}
+	

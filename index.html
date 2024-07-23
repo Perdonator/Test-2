@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fisher Clicker</title>
+  <link rel="stylesheet" href="fish.css">
+  <link rel="shortcut icon" type="image/x-icon" href="dead-fish.png">
+<meta property="og:image" content="Fishysuper.png" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+	  background: url("https://static.vecteezy.com/system/resources/previews/006/551/665/non_2x/blue-ocean-with-fish-silhouette-background-free-vector.jpg");
+    } 
+    #score {
+      font-size: 24px;
+      margin-bottom: 20px;
+      user-select: none;
+      border-radius: 15px;
+      color: rgb(9 67 57);
+    }
+    #clickBtn img {
+      width: 100px; 
+      height: 100px;
+      cursor: pointer;
+      user-select: none;
+    }
+    #clickBtn img:hover {
+      user-select: none;
+    }
+
+    #progrees {
+      color: tomato;
+      user-select: none;
+    }
+    
+    
+
+  </style>
+</head>
+<body class = "body" id = "body">
+  
+  <iframe src="song.html" frameborder="10"></iframe>
+  
+  <h1 id="fishyclicky">Fisher Clicker</h1>
+  <p id="fishel">Click the fish king to earn points!</p>
+  <p id="pointy">Points: <span id="score">0</span></p>
+  <button id="clickBtn">
+    <img src="fishKing.png" id = "fishBtn"/>
+	<img src="fishskin.png" id = "fishSkin"/>
+  </button>
+  <h2 id="progrees">Do not worry, progress is saved!</h2>
+  <h3 id="perditor">Perditor/Fishgod's game</h3>
+  <a href="fish.html" id="soup">Secrets of the Fish</a>
+  <button onclick = "showShop()" id = "shopBtn" class = "buttons">FISH SHOP</button>
+  <div>
+    <button onclick = "noSound()" class = "buttons" id="butt"> Remove fish sound </button>
+	<button onclick = "backSound()" class = "buttons"  id="butt"> Turn fish sound on </button>
+    <style>
+	.buttons {
+	  margin: 15px;
+	  font-size: 20px;
+	  background-color: #A0F6F6;
+	}
+	</style>
+  </div>
+  <div>
+      <button class="buttons" onclick="ClickGrader()" id="but">Upgrade click fish!</button>
+      <button class="buttons" onclick="fishCoins()" id="sexycoin">Get Fish Coins! :O</button>
+      <h2 id="numba">Clicks are on lvl <span id="gradeCounter">1</span></h2>
+      <h2 id="clickypay">For next fishy click lvl pay: <span id="payCounter">100</span></h2>
+      <h2 id="buyer">You can buy fish coins for 1000 score! Your fish coins: <span id="coins">0</span></h2>
+      <button class="buttons" onclick="changelogToggle()" id = "clTog">Show Changelog!</button>
+      <h4 id="changelog"> Change-log: <br /> - Added click garder. <br /> -Added full screen mode.<br/> -Fish skin Shop!(Phase 1/2) Added Fish Coins that you can buy for 1000 scores. <br/> -Added "Reset all" button, that will reset all your progress except fish coins. <br/>- Fixed a lot of display glitches. <br/>- Fish Shop (Phase 2/2)! Fish shop appeared, you can find it by clicking on the "Fish Shop" button. <br/>-fish</h4>
+      <button onclick="reset()" class="buttons" id = "reset">Reset all</button>
+      <style>
+          .changelog {
+            font-size: 30px;
+          }
+      </style>
+  </div>
+  <div id = "shop">
+      <button class = "buttons" id = "skin1"> Buy this skin! (2 Coins)</button>
+	  <img src = "fishskin.png" id = "fishskin"/>
+	  <button class = "buttons"> Buy this skin! (8 Coins)</button>
+	  <img src = "fishlord.png" id = "fishskin"/>
+	  <button class = "buttons" onclick = "bgChange1()" id = "wallaperChange"> Buy new wallapers! (5 Coins)</button>
+	  <img src = "fishwall.jpg" id = "fishskin"/>
+	  <button class = "buttons"> Buy this skin! (1k Coins!)</button>
+	  <img src = "Buff.png" id = "fishskin"/>
+	  
+  </div>
+<script src = "fishopScript.js"></script>
+<script src = "FishyScript.js"></script>
+<script src = "FishSecret.js"> </script>
+</body>
+</html>
